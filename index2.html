@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebwithCSS</title>
+
+    <style>
+        .heading,footer{
+            background-color: rgb(180, 32, 180);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer{
+            margin-top: 30px;
+        }
+
+        .heading h1{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .heading ul {
+            list-style: none;
+            overflow: auto;
+        }
+
+        .heading ul li {
+            display: inline-block;
+            padding-right: 20px;
+        }
+
+        .heading ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .heading ul li a:hover{
+            text-decoration:underline;
+            color: black;
+        }
+
+        .mid{
+            text-align: center;
+        }
+
+        #toggle{
+            text-decoration: none;
+            background-color: rgb(180, 32, 180);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        #toggle:hover{
+            background-color: rgba(180, 32, 180, 0.533);
+            text-decoration:underline;
+            color: black;
+        }
+
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>My Website</h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="mid">
+        <h2>Welcome to My Website</h2>
+        <p>This is a simple website.</p>
+        <a id="toggle" href="./index1.html">Toggle CSS</a>
+    </div>
+
+    <footer>Copyright © AkshitaPathak</footer>
+
+</body>
+
+</html>
